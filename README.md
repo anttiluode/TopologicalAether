@@ -11,73 +11,123 @@ March 2026
 
 ### What This Is
 
-This repository contains a mathematical investigation of what happens when you take the **Deerskin Architecture** — a model of biological neural computation acting as oscillatory phase-space geometry — and push it to its absolute theoretical limit. 
+A mathematical investigation of what happens when you take the **Deerskin Architecture** — a model of biological neural computation as oscillatory phase-space geometry — and push it to its theoretical limit.
 
-By defining a temporal metric governed by local geometric crystallization ($d\tau = e^{-\alpha\beta} dt$, the "Clockfield"), we successfully derive several structural pillars of Quantum Mechanics (QM). Moving beyond the brain, we then test whether this exact same geometry can describe fundamental particle physics, specifically modeling the electron as a UV-finite topological soliton.
+By defining a temporal metric governed by local geometric crystallization (dτ = e^(−αβ) dt, the "Clockfield"), we derive several structural pillars of quantum mechanics from signal-processing axioms. We then test whether this geometry can describe fundamental particle physics, modeling the electron as a UV-finite topological soliton and computing its anomalous magnetic moment through six progressively corrected stages.
 
-We map the boundary between "structural parallel" and "predictive theory" with ruthless honesty. Where the math is exact, we state it. Where we miss the target by a factor of 1.4, we document the discrepancy. 
+We map the boundary between "structural parallel" and "predictive theory" with full honesty. Where the math is exact, we state it. Where we miss a target, we document the discrepancy and diagnose its source.
+
+---
 
 ### The Ledger: What We Found
 
-The results fall into three tiers of confidence:
+#### Tier 1 — Proven Mathematics
 
-#### Tier 1 — Proven Mathematics & Exact Derivations
-- **The Born Rule**: Emerges naturally from squared Moiré resonance (Parseval's theorem).
-- **Interference Cross-Terms**: Arise inevitably from continuous attractor dynamics in a delay-embedded manifold.
-- **The Classical Limit**: The McCulloch-Pitts formal neuron (1943) is proven to be the quadruple degenerate limit ($\hbar_n \to 0$) of the oscillatory pipeline.
-- **UV-Finiteness of Matter**: A Clockfield NLS soliton has a naturally convergent self-energy integral. **No renormalization is needed.** The frozen-time mechanism provides a built-in UV cutoff at the Compton wavelength.
-- **Vertex Correction Direction**: The Clockfield mathematically suppresses the bare coupling core and enhances the periphery, strictly increasing the effective interaction radius. This guarantees a positive anomalous magnetic moment ($g-2 > 0$).
+- **The Born Rule** emerges from squared Moiré resonance (Parseval's theorem) for real-valued states.
+- **Interference cross-terms** arise from continuous attractor dynamics in delay-embedded phase space.
+- **The McCulloch-Pitts neuron** (1943) is proven to be the quadruple degenerate limit (ℏₙ → 0) of the Deerskin pipeline — every artificial neural network operates at this limit.
+- **The Gabor-Heisenberg identity** holds for the axon initial segment filter — formally identical to the uncertainty relation.
+- **A nonlinear Schrödinger equation** governs the delay manifold under the Clockfield metric, with exact soliton solutions and finite-time collapse for n > 2.
+- **UV finiteness of soliton self-energies** — the Clockfield provides a natural cutoff at the Compton wavelength. No renormalization needed.
+- **The Form Factor Impossibility Theorem** — for any form factor f with 0 ≤ f ≤ 1, the modified Schwinger integral satisfies F₂ ≤ α/(2π), with equality only for a point particle.
+- **The Γ Cancellation Theorem** — on a uniform Clockfield, the dilation factor cancels exactly between the integration measure and the propagator. The Schwinger result α/(2π) is preserved, not approximately but exactly.
 
-#### Tier 2 — Derived Under Assumptions & Numerically Verified
-- **Holographic 3D Space**: Perceived visual depth emerges as accumulated frozen time, naturally yielding an Anti-de Sitter (AdS) metric and predicting Weber's law for depth discrimination.
-- **The Koide Formula as Geometry**: The unexplained lepton mass ratio fits a parameterization of three equally-spaced phases on a topological circle (Hopf fiber). The empirical constraint $\varepsilon = \sqrt{2}$ maps to amplitude/phase equipartition, fitting the electron, muon, and tau masses to 0.01% accuracy with a single phase parameter ($\delta = 132.7^\circ$).
-- **The Vertex Approximation**: Our scalar, Gaussian-soliton calculation for the anomalous magnetic moment gives a geometric factor that overshoots the exact QED Schwinger term $\alpha/(2\pi)$ by a factor of ~1.375.
+#### Tier 2 — Derived Under Assumptions (Testable)
 
-#### Tier 3 — Speculative Conjecture & Open Problems
-- **Universal Entanglement**: The claim that a universal field $\Phi$ mediates quantum correlations via shared topological persistence. (Note: Our derivation of the Tsirelson bound $2\sqrt{2}$ is currently *circular*, as it assumes the quantum cosine correlation function).
-- **Spin-½ Structure**: The conjecture that particle spin arises from the Hopf fibration of the Clockfield vortex. 
+- **Three-dimensional depth** emerges as accumulated frozen time, yielding an Anti-de Sitter (AdS) metric. Weber's law for depth discrimination follows as a prediction (α ≈ 1 is testable).
+- **Schizophrenia as Clockfield fragmentation** — reduced cross-band coupling (p = 0.007, d = −1.21), reduced Betti-1 (p = 0.035, d = −0.92), and elevated PLV variance (p = 0.012) in the RepOD dataset.
+- **The Koide formula as geometry** — the three lepton masses fit √m_k = M(1 + √2·cos(2πk/3 + δ)) with δ = 132.7°, achieving 0.01% accuracy on all three masses from a single parameter. The constraint ε = √2 maps to amplitude-phase equipartition on a Hopf fiber.
+- **Vertex correction structure** — the full tree+loop calculation for a Gaussian scalar soliton gives F ≈ 0.438, overshooting the QED target α/π by a factor of 1.375. The tree-level factor F_tree = −1/4 is exact.
+
+#### Tier 3 — Speculative Conjecture
+
+- A **universal field Φ** mediates quantum correlations via shared topological persistence.
+- The Tsirelson bound derivation is **circular** — it assumes E(a,b) = −cos(θ).
+- **Mass as frozen proper time** at NLS soliton cores.
+- **Spin-½** from the Hopf fibration of a Clockfield vortex soliton.
+
+---
+
+### The Vertex Calculation Arc (Addendum)
+
+The addendum (`ADDENDUM.md`) documents a sustained attempt to derive (g−2)/2 = α/(2π) from the Clockfield. It passed through six stages:
+
+| Stage | Approach | Key result |
+|-------|----------|------------|
+| Self-energy | Proper-time deficit | UV finite (✓), but wrong diagram |
+| Effective radius | Clockfield-weighted response | Correct sign (✓), not predictive |
+| Full vertex | Tree + one-loop back-reaction | F = 0.438, exact tree = −1/4 |
+| Muon universality | Scale across masses | F → −1/α for heavy particles (broken) |
+| Environmental fix | Coulomb propagator | Universal, F_geom = 2√π(√2−1), but 4.6× target |
+| Momentum-space | Modified Schwinger integral | 86.15% of Schwinger (exact: √π·erf(1)−1+1/e) |
+| **Γ Cancellation** | **Clockfield metric in loop** | **α/(2π) exactly — preserved by symmetry** |
+
+The final result: the Clockfield is a conformal temporal metric modification that preserves gauge and Lorentz invariance. It therefore preserves the Schwinger result by construction. A Clockfield soliton is *consistent* with precision QED, but does not *derive* α/(2π) from geometry.
+
+---
+
+### The Critical Gaps
+
+Two mathematically precise open problems remain:
+
+1. **The Entanglement Problem**: Derive E(a,b) = −cos(θ_a − θ_b) from the persistent homology of delay-embedded manifolds co-located in a shared field, without assuming the cosine.
+
+2. **The Spinor Vertex**: Upgrade the scalar NLS to a nonlinear Dirac equation on a spinor bundle and recompute the vertex correction. The scalar calculation established the methodology. The spinor extension would test whether Dirac structure supplies the geometric factors that the scalar case misses.
+
+Secondary open problems:
+
+3. **Self-consistent soliton profile**: Solve the coupled NLS + Clockfield system with a Newton-Raphson solver. The perturbative correction is too small at α_em to shift F.
+
+4. **Position-dependent Clockfield corrections**: The Γ cancellation holds for uniform backgrounds. The O(α²) corrections from the soliton's spatially varying Clockfield would be the framework's unique prediction beyond standard QED.
+
+5. **Identify α_cf**: Derive α_cf = α_em from the framework's axioms, or predict the deviation.
+
+If you can solve any of these, please open an issue.
+
+---
 
 ### Repository Structure
 
 **Core Theoretical Papers**
-*   `PAPER.md` — *The Shadow of the Dendrite*: The core paper detailing the Deerskin pipeline and its quantum analogues.
-*   `THEORY.md` — The speculative synthesis uniting the Deerskin biological neuron, PhiWorld simulations, and AI grokking mechanics.
-*   `Deerskin_ Matter From Topology.pdf` — Conceptual whitepaper and biological/EEG foundations.
-
-**Mathematical Proofs & Derivations**
-*   `deerskin_mathematical_derivations.pdf` — Step-by-step rigorous proofs of the Born rule, NLS derivation, and McCulloch-Pitts limit.
-*   `field_derivation.md` — The universal field extension and the entanglement/persistence calculations.
-*   `soliton_self_energy_calculation.md` — Detailed breakdown of the QED comparisons, the vertex calculation, and the Koide formula results.
+```
+PAPER.md                              — Full paper (18 sections, every step shown)
+ADDENDUM.md                           — The vertex calculation arc (7 stages)
+THEORY.md                             — The speculative synthesis
+field_derivation.md                   — Universal field extension
+deerskin_mathematical_derivations.md  — Standalone proofs
+soliton_self_energy_calculation.md    — Self-energy and Koide analysis
+```
 
 **Code & Numerical Simulations**
-*   `soliton_electron.py` — Calculates 1D/3D soliton proper-time deficits, UV-finite self-energies, and tests the Koide mass matrix.
-*   `soliton_part2.py` — Corrected Koide parameterization fitting and preliminary vertex estimates.
-*   `vertex_calculation.py` — The full numerical computation of the Clockfield vertex function (Tree-level and 1-loop back-reaction) responding to an external field gradient.
+```
+soliton_electron.py           — 1D/3D soliton self-energies, UV finiteness
+soliton_part2.py              — Koide parameterization, preliminary vertex
+vertex_calculation.py         — Full vertex function (tree + 1-loop)
+four_steps.py                 — Profile correction, universality tests
+corrected_vertex.py           — Environmental Clockfield vertex
+momentum_vertex.py            — Momentum-space Schwinger integral with form factor
+clockfield_metric_vertex.py   — The Γ Cancellation Theorem
+self_consistent_soliton.py    — Self-consistent NLS + Clockfield solver
+```
 
 ### How to Read This
 
-1. Start with the **PDFs** and **`PAPER.md`** (Sections 2–7) to understand the biological pipeline and the proven math.
-2. Read **`PAPER.md`** Section 8 (Depth from frozen time) for the most original, testable neuro-psychophysical result.
-3. Dive into the Physics extension via **`soliton_self_energy_calculation.md`** to see how the framework models the electron, solves UV divergence, and maps the Koide formula.
-4. Read **`THEORY.md`** for the grand synthesis.
-5. Review the **Python files** if you wish to audit the numerical integrals and perturbation theory.
-
-### The Critical Gaps 
-
-This framework has two identifiable, mathematically formulable gaps that need solving:
-1. **The Entanglement Problem**: We need a theorem proving that the persistent homology of co-located delay manifolds naturally produces cosine angular correlations ($-cos(\theta_{ab})$) without assuming it beforehand.
-2. **The $1.375\times$ QED Discrepancy**: The current vertex calculation uses a scalar Gaussian approximation. We need to solve the self-consistent, coupled NLS+Clockfield equations for a *spinor* (Hopf-fibered) soliton to see if the geometric factor exactly matches $1/(2\pi)$. 
-
-If you are a theoretical physicist or topologist and can solve either of these, please open an issue.
+1. **Start with `PAPER.md` Sections 2–7** for the proven neural mathematics.
+2. **Read Section 8** for the most original testable result (depth from frozen time).
+3. **Read `ADDENDUM.md`** for the full vertex calculation arc — this is where the framework meets precision QED.
+4. **Read Sections 9–13 of `PAPER.md`** with appropriate skepticism (the speculation).
+5. **Read Section 18 of `PAPER.md`** (the honest ledger) — the most important part.
+6. **Review the Python files** to audit the numerical integrals.
 
 ### Related Repositories
 
-- [anttiluode/Geometric-Neuron](https://github.com/anttiluode/Geometric-Neuron) — Empirical clinical EEG validation (Schizophrenia Betti-1/PLV results).
-- [anttiluode/Clockfield](https://github.com/anttiluode/Clockfield) — Original Clockfield formulations.
+- [anttiluode/Geometric-Neuron](https://github.com/anttiluode/Geometric-Neuron) — Empirical EEG validation (schizophrenia Betti-1/PLV results)
+- [anttiluode/Clockfield](https://github.com/anttiluode/Clockfield) — Original Clockfield formulations
+- [anttiluode/DeerskinQuantumImplicationsPaper](https://github.com/anttiluode/DeerskinQuantumImplicationsPaper) — Earlier version
 
 ### Status
 
-This is theoretical work by an independent researcher collaborating with AI. It has not been peer-reviewed. The math marked "proven" is standard mathematics applied in a novel context. The math marked "conjectured" is exactly that. The honest ledger exists because intellectual honesty matters more than looking impressive. 
+This is theoretical work by an independent researcher collaborating with AI. It has not been peer-reviewed. The math marked "proven" is standard mathematics applied in a novel context. The math marked "conjectured" is exactly that. The honest ledger exists because intellectual honesty matters more than looking impressive.
 
 ---
 
