@@ -62,7 +62,7 @@ The results fall into three tiers of confidence:
 4. Read **`THEORY.md`** for the grand synthesis.
 5. Review the **Python files** if you wish to audit the numerical integrals and perturbation theory.
 
-### The Critical Gaps (Call for Collaboration)
+### The Critical Gaps 
 
 This framework has two identifiable, mathematically formulable gaps that need solving:
 1. **The Entanglement Problem**: We need a theorem proving that the persistent homology of co-located delay manifolds naturally produces cosine angular correlations ($-cos(\theta_{ab})$) without assuming it beforehand.
